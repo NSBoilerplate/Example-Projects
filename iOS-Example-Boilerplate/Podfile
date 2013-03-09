@@ -1,0 +1,22 @@
+platform :ios, '5.0'
+
+pod 'BlocksKit', '1.8.1'
+pod 'SSToolkit', '1.0.2'
+pod 'CocoaLumberjack', '1.6'
+pod 'Reachability', '3.1.0'
+pod 'SVProgressHUD', '0.9'
+pod 'AFNetworking', '1.1.0'
+pod 'UISS', '1.1.0'
+pod 'IAPValidation', '0.0.1'
+pod 'IAPManager', '0.2.0'
+
+target :KIFTests, :exclusive => false do
+    pod 'KIF'
+end
+
+target :KiwiTests, :exclusive => true do
+    pod 'Kiwi'
+    pod 'AFHTTPRequestOperationLogger'
+end
+
+
