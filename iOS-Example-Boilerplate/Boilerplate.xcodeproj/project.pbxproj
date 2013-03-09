@@ -37,6 +37,18 @@
 		DDE9BE5F16EACD190034B753 /* appearance.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE5E16EACD190034B753 /* appearance.json */; };
 		DDE9BE6116EAD39D0034B753 /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6016EAD39D0034B753 /* iPad_Storyboard.storyboard */; };
 		DDE9BE6316EAD9050034B753 /* KiwiBoilerplateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE9BE6216EAD9050034B753 /* KiwiBoilerplateSpec.m */; };
+		DDE9BE6C16EAF6330034B753 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6416EAF6330034B753 /* Icon-72.png */; };
+		DDE9BE6D16EAF6330034B753 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6416EAF6330034B753 /* Icon-72.png */; };
+		DDE9BE6E16EAF6330034B753 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6516EAF6330034B753 /* Icon-72@2x.png */; };
+		DDE9BE6F16EAF6330034B753 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6516EAF6330034B753 /* Icon-72@2x.png */; };
+		DDE9BE7016EAF6330034B753 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6616EAF6330034B753 /* Icon-Small-50.png */; };
+		DDE9BE7116EAF6330034B753 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6616EAF6330034B753 /* Icon-Small-50.png */; };
+		DDE9BE7216EAF6330034B753 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6716EAF6330034B753 /* Icon-Small-50@2x.png */; };
+		DDE9BE7316EAF6330034B753 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6716EAF6330034B753 /* Icon-Small-50@2x.png */; };
+		DDE9BE7416EAF6330034B753 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6816EAF6330034B753 /* Icon-Small.png */; };
+		DDE9BE7516EAF6330034B753 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6816EAF6330034B753 /* Icon-Small.png */; };
+		DDE9BE7616EAF6330034B753 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */; };
+		DDE9BE7716EAF6330034B753 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */; };
 		DDF6F9D316E5402D00A240BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF6F9C816E5402D00A240BF /* InfoPlist.strings */; };
 		DDF6F9D716E5402D00A240BF /* KIFTestScenario+BPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9CC16E5402D00A240BF /* KIFTestScenario+BPAdditions.m */; };
 		DDF6F9D916E5402D00A240BF /* KIFTestStep+BPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9CE16E5402D00A240BF /* KIFTestStep+BPAdditions.m */; };
@@ -88,6 +100,14 @@
 		DDE9BE5E16EACD190034B753 /* appearance.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = appearance.json; path = Boilerplate/appearance.json; sourceTree = "<group>"; };
 		DDE9BE6016EAD39D0034B753 /* iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Storyboard.storyboard; sourceTree = "<group>"; };
 		DDE9BE6216EAD9050034B753 /* KiwiBoilerplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiwiBoilerplateSpec.m; sourceTree = "<group>"; };
+		DDE9BE6416EAF6330034B753 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		DDE9BE6516EAF6330034B753 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		DDE9BE6616EAF6330034B753 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		DDE9BE6716EAF6330034B753 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		DDE9BE6816EAF6330034B753 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DDE9BE6A16EAF6330034B753 /* Icon_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_base.png; sourceTree = "<group>"; };
+		DDE9BE6B16EAF6330034B753 /* Icon_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_base@2x.png"; sourceTree = "<group>"; };
 		DDF6F9C916E5402D00A240BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDF6F9CA16E5402D00A240BF /* KIFTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KIFTests-Info.plist"; sourceTree = "<group>"; };
 		DDF6F9CB16E5402D00A240BF /* KIFTestScenario+BPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+BPAdditions.h"; sourceTree = "<group>"; };
@@ -209,6 +229,14 @@
 				DD90E00316E4F1320012517A /* InfoPlist.strings */,
 				DD90E00616E4F1320012517A /* main.m */,
 				DD90E00816E4F1320012517A /* Boilerplate-Prefix.pch */,
+				DDE9BE6416EAF6330034B753 /* Icon-72.png */,
+				DDE9BE6516EAF6330034B753 /* Icon-72@2x.png */,
+				DDE9BE6616EAF6330034B753 /* Icon-Small-50.png */,
+				DDE9BE6716EAF6330034B753 /* Icon-Small-50@2x.png */,
+				DDE9BE6816EAF6330034B753 /* Icon-Small.png */,
+				DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */,
+				DDE9BE6A16EAF6330034B753 /* Icon_base.png */,
+				DDE9BE6B16EAF6330034B753 /* Icon_base@2x.png */,
 				DD90E00C16E4F1320012517A /* Default.png */,
 				DD90E00E16E4F1320012517A /* Default@2x.png */,
 				DD90E01016E4F1320012517A /* Default-568h@2x.png */,
@@ -292,6 +320,7 @@
 				DD90DFF416E4F1320012517A /* Frameworks */,
 				DD90DFF516E4F1320012517A /* Resources */,
 				1B9B2AA7171B47CCB0E3C9F9 /* Copy Pods Resources */,
+				DDE9BE7C16EAF94F0034B753 /* Overlay Application Version on Icon */,
 			);
 			buildRules = (
 			);
@@ -330,7 +359,6 @@
 				DD90E05A16E53C990012517A /* Frameworks */,
 				DD90E05F16E53C990012517A /* Resources */,
 				DD90E06716E53C990012517A /* Copy Pods Resources */,
-				1FACFCB3C0464FC2A057331B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,6 +413,12 @@
 				DDE9A84116E910AB00873B12 /* AppledocSettings.plist in Resources */,
 				DDE9BE5F16EACD190034B753 /* appearance.json in Resources */,
 				DDE9BE6116EAD39D0034B753 /* iPad_Storyboard.storyboard in Resources */,
+				DDE9BE6C16EAF6330034B753 /* Icon-72.png in Resources */,
+				DDE9BE6E16EAF6330034B753 /* Icon-72@2x.png in Resources */,
+				DDE9BE7016EAF6330034B753 /* Icon-Small-50.png in Resources */,
+				DDE9BE7216EAF6330034B753 /* Icon-Small-50@2x.png in Resources */,
+				DDE9BE7416EAF6330034B753 /* Icon-Small.png in Resources */,
+				DDE9BE7616EAF6330034B753 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +440,12 @@
 				DD90E06316E53C990012517A /* Default-568h@2x.png in Resources */,
 				DD90E06616E53C990012517A /* iPhone_Storyboard.storyboard in Resources */,
 				DDF6F9D316E5402D00A240BF /* InfoPlist.strings in Resources */,
+				DDE9BE6D16EAF6330034B753 /* Icon-72.png in Resources */,
+				DDE9BE6F16EAF6330034B753 /* Icon-72@2x.png in Resources */,
+				DDE9BE7116EAF6330034B753 /* Icon-Small-50.png in Resources */,
+				DDE9BE7316EAF6330034B753 /* Icon-Small-50@2x.png in Resources */,
+				DDE9BE7516EAF6330034B753 /* Icon-Small.png in Resources */,
+				DDE9BE7716EAF6330034B753 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,20 +465,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		1FACFCB3C0464FC2A057331B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-KIFTests-resources.sh\"\n";
 		};
 		528458450D5E486AAAA7D07B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -481,6 +507,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		DDE9BE7C16EAF94F0034B753 /* Overlay Application Version on Icon */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Overlay Application Version on Icon";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script was modified from\n# http://www.merowing.info/2013/03/overlaying-application-version-on-top-of-your-icon/?utm_source=iOS+Dev+Weekly&utm_campaign=b470a8cbf8-iOS_Dev_Weekly_Issue_84&utm_medium=email\n\ncd Boilerplate;\n\ncommit=`git rev-parse --short HEAD`\nbranch=`git rev-parse --abbrev-ref HEAD`\nversion=`/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\"`\n\nfunction processIcon() {\n    export PATH=$PATH:/usr/local/bin\n    base_file=$1\n    echo \"Processing $base_file in \";\n    if [ ! -f $base_file ]; then return; fi\n    \n    target_file=`echo $base_file | sed \"s/_base//\"`\n    target_path=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/${target_file}\"\n    \n    if [ $CONFIGURATION = \"Release\" ]; then\n    cp ${base_file} $target_path\n    return\n    fi\n    \n    command -v convert >/dev/null 2>&1 || {\n        echo >&2 \"warning: Install imagemagick and ghostscript to customize ${target_path}.\";\n        cp ${base_file} $target_path\n        return;\n    }\n    \n    echo \"Overlaying ${version} ${branch} ${commit} on ${target_path}\"\n\n    width=`identify -format %w ${base_file}`\n    \n    convert -background '#0008' -fill white -gravity center -size ${width}x40\\\n    caption:\"${version} ${branch} ${commit}\"\\\n    ${base_file} +swap -gravity south -composite ${target_path}\n}\n\nif [[ \"$commit\" != fatal* ]]\nthen\n    echo \"Processing icons\"\n    processIcon \"Icon_base.png\"\n    processIcon \"Icon_base@2x.png\"\n    processIcon \"Icon_base~iPad.png\"\n    processIcon \"Icon_base@2x~iPad.png\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -1,3 +1,8 @@
+# NSBoilerplate specific ignores:
+
+Boilerplate/Icon.png
+Boilerplate/Icon@2x.png
+
 #########################
 # .gitignore file for Xcode4 / OS X Source projects
 #
