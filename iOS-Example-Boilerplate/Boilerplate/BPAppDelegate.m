@@ -7,6 +7,7 @@
 //
 
 #import "BPAppDelegate.h"
+#import <BPKit/BPKit.h>
 #import <UISS/UISS.h>
 #import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 
@@ -58,7 +59,9 @@
         exit([[BPUITestController sharedInstance] failureCount]);
     }];
 #endif
-
+    
+    [BPKit fadeDefaultImageForDuration:.45f inWindow:self.window];
+    
     return YES;
 }
 

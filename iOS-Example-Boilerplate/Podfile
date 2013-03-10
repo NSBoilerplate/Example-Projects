@@ -1,5 +1,9 @@
 platform :ios, '5.0'
 
+# BPKit contains useful code that is scattered throughout the boilerplate
+# classes. Feel free to remove it and edit the code if you want.
+pod 'BPKit', :git => 'git://github.com/NSBoilerplate/BPKit', :tag => '0.0.1'
+
 pod 'BlocksKit', '1.8.1'
 pod 'SSToolkit', '1.0.2'
 pod 'CocoaLumberjack', '1.6'
