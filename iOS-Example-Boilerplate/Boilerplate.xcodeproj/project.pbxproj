@@ -49,11 +49,9 @@
 		DDE9BE7516EAF6330034B753 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6816EAF6330034B753 /* Icon-Small.png */; };
 		DDE9BE7616EAF6330034B753 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */; };
 		DDE9BE7716EAF6330034B753 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */; };
-		DDF6F9D316E5402D00A240BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF6F9C816E5402D00A240BF /* InfoPlist.strings */; };
 		DDF6F9D716E5402D00A240BF /* KIFTestScenario+BPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9CC16E5402D00A240BF /* KIFTestScenario+BPAdditions.m */; };
 		DDF6F9D916E5402D00A240BF /* KIFTestStep+BPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9CE16E5402D00A240BF /* KIFTestStep+BPAdditions.m */; };
 		DDF6F9DB16E5402D00A240BF /* BPUITestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9D116E5402D00A240BF /* BPUITestController.m */; };
-		DDF6F9E116E5403B00A240BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF6F9DD16E5403B00A240BF /* InfoPlist.strings */; };
 		DDF6F9E616E5494600A240BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD90DFFE16E4F1320012517A /* CoreGraphics.framework */; };
 		DDF6F9E816E5498F00A240BF /* libPods-KIFTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF6F9E716E5498F00A240BF /* libPods-KIFTests.a */; };
 		DDF6F9ED16E5A35E00A240BF /* BPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F9EC16E5A35E00A240BF /* BPAPIClient.m */; };
@@ -108,7 +106,6 @@
 		DDE9BE6916EAF6330034B753 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		DDE9BE6A16EAF6330034B753 /* Icon_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_base.png; sourceTree = "<group>"; };
 		DDE9BE6B16EAF6330034B753 /* Icon_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_base@2x.png"; sourceTree = "<group>"; };
-		DDF6F9C916E5402D00A240BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDF6F9CA16E5402D00A240BF /* KIFTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KIFTests-Info.plist"; sourceTree = "<group>"; };
 		DDF6F9CB16E5402D00A240BF /* KIFTestScenario+BPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+BPAdditions.h"; sourceTree = "<group>"; };
 		DDF6F9CC16E5402D00A240BF /* KIFTestScenario+BPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+BPAdditions.m"; sourceTree = "<group>"; };
@@ -116,7 +113,6 @@
 		DDF6F9CE16E5402D00A240BF /* KIFTestStep+BPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+BPAdditions.m"; sourceTree = "<group>"; };
 		DDF6F9D016E5402D00A240BF /* BPUITestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPUITestController.h; sourceTree = "<group>"; };
 		DDF6F9D116E5402D00A240BF /* BPUITestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPUITestController.m; sourceTree = "<group>"; };
-		DDF6F9DE16E5403B00A240BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDF6F9E016E5403B00A240BF /* KiwiTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KiwiTests-Info.plist"; sourceTree = "<group>"; };
 		DDF6F9E716E5498F00A240BF /* libPods-KIFTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-KIFTests.a"; path = "Pods/build/Release-iphoneos/libPods-KIFTests.a"; sourceTree = "<group>"; };
 		DDF6F9E916E5499600A240BF /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
@@ -271,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				DDF6F9CA16E5402D00A240BF /* KIFTests-Info.plist */,
-				DDF6F9C816E5402D00A240BF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -279,7 +274,6 @@
 		DDF6F9E516E5409100A240BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDF6F9DD16E5403B00A240BF /* InfoPlist.strings */,
 				DDF6F9E016E5403B00A240BF /* KiwiTests-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -427,7 +421,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF6F9E116E5403B00A240BF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +433,6 @@
 				DD90E06216E53C990012517A /* Default@2x.png in Resources */,
 				DD90E06316E53C990012517A /* Default-568h@2x.png in Resources */,
 				DD90E06616E53C990012517A /* iPhone_Storyboard.storyboard in Resources */,
-				DDF6F9D316E5402D00A240BF /* InfoPlist.strings in Resources */,
 				DDE9BE6D16EAF6330034B753 /* Icon-72.png in Resources */,
 				DDE9BE6F16EAF6330034B753 /* Icon-72@2x.png in Resources */,
 				DDE9BE7116EAF6330034B753 /* Icon-Small-50.png in Resources */,
@@ -585,22 +577,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD90E00416E4F1320012517A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDF6F9C816E5402D00A240BF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDF6F9C916E5402D00A240BF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDF6F9DD16E5403B00A240BF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDF6F9DE16E5403B00A240BF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
