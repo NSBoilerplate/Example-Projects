@@ -2,6 +2,7 @@
 // Prefix header for all source files of the 'Boilerplate' target in the 'Boilerplate' project
 //
 
+
 #import <Availability.h>
 
 #ifndef __IPHONE_5_0
@@ -13,4 +14,8 @@
     #import <Foundation/Foundation.h>
     #import <BlocksKit/BlocksKit.h>
     #import <SSToolkit/SSCategories.h>
+    #import <CocoaLumberjack/DDLog.h>
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
 #endif
