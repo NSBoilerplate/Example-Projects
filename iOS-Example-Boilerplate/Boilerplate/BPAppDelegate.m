@@ -9,8 +9,6 @@
 #import "BPAppDelegate.h"
 #import <BPKit/BPKit.h>
 #import <UISS/UISS.h>
-#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
-#import <CocoaLumberjack/DDLog.h>
 #import <CocoaLumberjack/DDASLLogger.h>
 #import <CocoaLumberjack/DDTTYLogger.h>
 
@@ -114,7 +112,7 @@
 {
     if([keyPath isEqualToString:DEFAULTS_AUTHENTICATION_KEY])
     {
-        NSLog(@"%@ change: %@", DEFAULTS_AUTHENTICATION_KEY, change);
+        DDLogVerbose(@"%@ change: %@", DEFAULTS_AUTHENTICATION_KEY, change);
         
         if ([change[@"new"] boolValue]) {
             // Hide authentication
